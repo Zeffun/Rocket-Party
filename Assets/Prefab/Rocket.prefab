@@ -112,9 +112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab812d24c16fe8b45a5edd96399b43aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
   maxBounce: 5
   hitTag: Character
+  parentPlayerCollider: {fileID: 0}
+  objectCollider: {fileID: 0}
 --- !u!50 &2593542839869711273
 Rigidbody2D:
   serializedVersion: 4
